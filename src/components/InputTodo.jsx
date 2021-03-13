@@ -7,7 +7,8 @@ export const InputTodo = (props) => {
     height: "30px",
     padding: "8px",
     margin: "8px",
-    borderRadius: "8px"
+    borderRadius: "8px",
+    textAlign: "center"
   };
   const { todoText, onChange, onClick, disabled } = props;
   return (

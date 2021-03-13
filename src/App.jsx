@@ -47,8 +47,8 @@ export const App = () => {
         disabled={incompleteTodos.length >= 5}
       />
       {incompleteTodos.length >= 5 && (
-        <p style={{ color: "red" }}>
-          TODOの上限に達しとる。早よタスクこなせや。
+        <p id="caution" style={{ color: "red" }}>
+          ※そろそろタスクこなさなあかんのちゃうか。
         </p>
       )}
       <IncompleteTodos
